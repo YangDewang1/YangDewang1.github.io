@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人学术主页 | 学者简介</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman", "SimSun", serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #2c3e50;
+            line-height: 1.8;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px 60px;
+            border: 1px solid #e9ecef;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 25px;
+        }
+
+        .avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 4px;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            border: 2px solid #adb5bd;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1a2530;
+            margin-bottom: 8px;
+        }
+
+        .post {
+            font-size: 16px;
+            color: #495057;
+        }
+
+        .unit {
+            font-size: 15px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #1a2530;
+            margin-bottom: 15px;
+            padding-left: 8px;
+            border-left: 3px solid #343a40;
+        }
+
+        p {
+            font-size: 15px;
+            color: #343a40;
+            text-align: justify;
+        }
+
+        .research-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .tag {
+            background: #e9ecef;
+            color: #2c3e50;
+            padding: 5px 14px;
+            font-size: 14px;
+            border-radius: 2px;
+        }
+
+        .contact a {
+            color: #212529;
+            text-decoration: none;
+            border-bottom: 1px solid #6c757d;
+        }
+
+        .contact a:hover {
+            color: #000;
+            border-bottom-color: #000;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 25px;
+            }
+            .name {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部：姓名+职称+单位 -->
+        <div class="header">
+            <img src="https://picsum.photos/200/200" alt="个人证件照" class="avatar">
+            <h1 class="name">XXX 研究员 / 教授</h1>
+            <p class="post">研究方向：计算病理学 | 医学人工智能 | 深度学习</p>
+            <p class="unit">XX大学 · XX学院 / XX重点实验室</p>
+        </div>
+
+        <!-- 个人简介 -->
+        <section>
+            <h2>个人简介</h2>
+            <p>
+                长期从事医学影像智能分析、计算病理学与人工智能基础研究，聚焦全切片病理图像（WSI）分析、多实例学习、病理大模型及临床预后预测等关键问题。先后参与多项国家级、省部级科研项目，致力于推动人工智能技术在精准病理诊断与临床预后评估中的落地应用。
+            </p>
+        </section>
+
+        <!-- 研究领域 -->
+        <section>
+            <h2>主要研究领域</h2>
+            <div class="research-tags">
+                <span class="tag">全切片病理图像分析</span>
+                <span class="tag">计算病理学</span>
+                <span class="tag">医学人工智能</span>
+                <span class="tag">深度学习 & 多实例学习</span>
+                <span class="tag">病理大模型</span>
+                <span class="tag">临床预后建模</span>
+            </div>
+        </section>
+
+        <!-- 学术成果 -->
+        <section>
+            <h2>学术成果</h2>
+            <p>
+                相关研究成果发表于领域内高水平SCI期刊及国际顶级学术会议，包括医学影像、人工智能、病理信息学相关主流刊物；主持/参与国家自然科学基金、省部级重点研发计划等项目多项，积极开展多中心临床合作与跨学科交叉研究。
+            </p>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="contact">
+            <h2>学术联系</h2>
+            <p>邮箱：xxx@xxx.edu.cn &nbsp;&nbsp;|&nbsp;&nbsp; 
+            学术主页：<a href="#">Google Scholar / ResearchGate / ORCID</a></p>
+        </section>
+    </div>
+</body>
+</html>
